@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="againdiv"><button id="again">Again!</button></div>
+        <div class="description">(Between 1 and 20)</div>
+      </div>
+      <div class="name">Guess My Number!</div>
+
+      <div class="centerline">
+        <div class="left"></div>
+        <div class="mark">?</div>
+        <div class="right"></div>
+      </div>
+
+      <div class="gamecontainer">
+        <div class="numberguess">
+          <input type="number" id="guess" />
+          <button id="check">Check!</button>
+        </div>
+        <div class="about">
+          <div class="firsthalf" id="message">Start guessing...</div>
+          <div class="secondhalf">
+            <div class="score"><i class="fa-solid fa-display"></i> Score: </div>
+            <div class="highscore"><i class="fa-solid fa-medal"></i> Highscore: </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

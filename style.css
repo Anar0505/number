@@ -1,0 +1,98 @@
+body {background-color: rgb(20, 19, 19);}
+
+.container{
+    max-width: 900px;
+
+border: 1px solid white;
+margin: 0 auto;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin: 20px 20px 30px;
+}
+#again{
+font-size: 25px;
+font-weight: bold;
+padding: 15px 28px;
+background-color: white;
+letter-spacing: 2px;
+}
+.description{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+}
+.name{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 60px;
+}
+
+.centerline{
+    display: flex;
+    align-items: center;
+    margin-bottom: 130px;
+}
+.centerline div{
+    background-color: white;
+    color: black;
+}
+.right , .left{
+    width: calc(50% - 70px);
+    height: 4px;
+}
+.mark{
+    width: 140px;
+    height: 140px;
+    display: grid;
+    place-items: center;
+    font-size: 70px;
+    font-size: bold;
+}
+.gamecontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+}
+.numberguess{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+#guess{
+    height: 110px;
+    width: 220px;
+    border: 3px solid white;
+    background-color: rgb(20, 19, 19);
+    color: white;
+    font-size: 55px;
+    text-align: center;
+
+}
+#check{
+    font-size: 25px;
+    font-weight: bold;
+    width: 170px;
+    padding: 15px 28px;
+}
+.about{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;
+    color: white;
+    font-size: 25px;
+}
+.firsthalf{}
+.secondhalf{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

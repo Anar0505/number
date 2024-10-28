@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: "Orbitron", sans-serif;
+}
+button{
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: rgb(199, 185, 185);
+}
